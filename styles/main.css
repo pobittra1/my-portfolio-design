@@ -1,0 +1,20 @@
+.fpage header.scrolled{
+    background-color: gray;
+    transition: all .5s;
+    color: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 10px 0px 20px black;
+}
+
+.slide{
+    transform: translateX(200px);
+    transition: all .5s;
+}
+
+
+
+.lijs{
+    display: inline-block;
+}

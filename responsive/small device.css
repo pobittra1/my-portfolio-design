@@ -1,0 +1,443 @@
+
+/* home section start here */
+
+
+/* header section start here */
+.fpage header ul{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10%;
+    right: -12px;
+    background-color: gray;
+    padding: 10px 5px;
+    display: none;
+    transform: translateX(200px);
+    transition: all .5s ease-in;
+    text-align: center;
+    /* border-top-left-radius: 40px;
+    border-bottom-left-radius: 80px; */
+    
+
+
+}
+.fpage header ul.active{
+    display: inline-block;
+    transform: translateX(-15px);
+}
+.fpage header ul li{
+    margin: 8px 0px;
+}
+
+
+.fpage header .bar{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px;
+
+
+}
+.fpage header .bar .fa-solid{
+    color: white;
+
+}
+/* header section end here */
+
+
+/* home center section start here */
+.center .center-img{
+    padding: 15px;
+}
+.center .center-img img{
+    width: 150px;
+}
+
+.center .details p{
+    font-size: 22px;
+}
+
+/* home center section start here */
+
+/* home section end here */
+
+
+
+
+
+
+
+
+
+
+
+/* about section start here */
+.about-img{
+    width: 180px;
+    height: 180px;
+    border: 10px solid rgb(212, 208, 208);
+    border-radius: 50%;
+    
+}
+.about-img img{
+    width: 100%;
+
+}
+.about-page{
+    height: 130vh;
+}
+.about-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.about-details .ldiv{
+    width: 100%;
+    padding: 0px 60px;
+    margin-bottom: 30px;
+}
+.about-details .rdiv{
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.ae{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.ae li:nth-child(1){
+    margin-bottom: 20px;
+  
+}
+.location .fa-solid{
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline;
+}
+.rdiv .skills ul li{
+    list-style: none;
+    width: 100%;
+    margin: 8px 0px;
+    transition: all .5s;
+    overflow: hidden;
+}
+/* about section end here */
+
+
+
+
+
+
+
+
+
+
+/* services section start here */
+
+.services  h1{
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 35px;
+    position: relative;
+    top: -350px;
+}
+.services h1::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -105px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+.services h1::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -105px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+
+.services .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    margin: 40px 20px 0px 20px;
+    padding: 20px;
+    grid-gap: 80px 50px;
+    position: absolute;
+    top: 18%;
+
+}
+
+.services .cards .card{
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    height: 180px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.services .cards .card .icon span{
+    text-align: center;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 520;
+    color: rgba(0,0,0,0.5);
+    margin: 0px auto;
+    padding: 14px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.services .cards .card .icon span::before{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    width: 40px;
+    height: 20px;
+    border: 4px solid white;
+    border-width: 4px 0px 0px 4px;
+}
+.services .cards .card .icon span::after{
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    right: 15px;
+    width: 40px;
+    height: 20px;
+    border: 4px solid white;
+    border-width: 0px 4px 4px 0px;
+}
+
+.services  .cards .card .back-card h2{
+    font-size: 16px;
+}
+.services  .cards .card .back-card p{
+    font-size: 14px;
+}
+
+/* services section end here */
+
+
+
+
+
+
+/* work section start here */
+.work  h1{
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 35px;
+    position: relative;
+    /* top: -350px; */
+}
+.work h1::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -105px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+.work h1::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -105px;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+
+
+.work .wrk-images{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 0%;
+    
+}
+
+.work .wrk-images{
+    align-items: center;
+    justify-content: center;
+} 
+
+.work .wrk-images li{
+    list-style: none;
+    border: 2px solid gray;
+    margin: 12px;
+    padding: 8px;
+    width: 200px;
+    height: 180px;
+    position: relative;
+    top: 30px;
+    overflow: hidden;
+    transition: all .5s;
+    cursor: pointer;
+    box-shadow: 0px 0px 200px gray;
+
+}
+
+.work .wrk-images li img{
+    width: 100%;
+    height: 100%;
+            
+
+}
+.work .wrk-images li span{
+    font-size: 20px;
+}
+
+.work ul{
+    top: 16%;
+}
+
+
+/* work section end here */
+
+
+
+
+
+
+
+
+/* hire section start here */
+.container .hire{
+    height: 220px;
+}
+
+.container .hire p{
+    font-size: 35px;
+}
+
+.container .hire button{
+    font-weight: 550;
+}
+
+/* hire section end here */
+
+
+
+
+/* blog section start here */
+.blog{
+    height: 190vh;
+}
+.blog h1{
+    font-size: 35px;
+    top: -80px;
+}
+
+.blog .flex-div{
+    flex-direction: column;
+}
+
+
+.blog .flex-div .blog-div1 .img-div{
+    /* display: inline-flex; */
+    width: 480px;
+    height: 280px;
+}
+
+.blog .flex-div .blog-div1 .details{
+    width: 480px;
+    height: 200px;
+}
+
+
+/* blog section start here */
+
+
+
+
+
+
+
+
+/* contact section start here */
+.contact h1{
+    font-size: 30px;
+}
+
+.contact h1::before{
+    width: 100px;
+    left: -105px;
+}
+
+.contact h1::after{
+    width: 100px;
+    right: -105px;
+}
+
+
+.contact .inp-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.contact .inp-box input{
+    margin: 15px 12px;
+    width: 400px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.contact textarea{
+    width: 400px;
+    height: 200px;
+}
+
+
+
+/* contact section start here */
+
+
+
+
+
+
+
+
+
+/* footer section start here */
+footer{
+    height: 20vh;
+}
+footer h3{
+    font-size: 22px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+/* footer section start here */
+
+
+
+

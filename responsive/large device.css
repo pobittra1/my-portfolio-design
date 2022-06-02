@@ -1,0 +1,102 @@
+/* home section start here */
+.fpage .center .center-img img{
+    width: 200px;
+}
+/* home section start here */
+
+
+
+
+/* services section start here */
+.services .cards{
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 150px 150px 150px;
+    margin: 40px 20px 0px 20px;
+    padding: 20px;
+    grid-gap: 80px 50px;
+    position: absolute;
+    top: 35%;
+}
+
+
+.services .cards .card .icon span::before{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 50px;
+    width: 40px;
+    height: 20px;
+    border: 4px solid white;
+    border-width: 4px 0px 0px 4px;
+}
+.services .cards .card .icon span::after{
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    right: 50px;
+    width: 40px;
+    height: 20px;
+    border: 4px solid white;
+    border-width: 0px 4px 4px 0px;
+}
+
+/* services section start here */
+
+
+
+/* work section start here */
+.work .wrk-images li{
+    width: 300px;
+    height: 250px;
+}
+/* work section end here */
+
+
+/* hire section start here */
+.container .hire{
+    height: 320px;
+}
+
+.container .hire p{
+    font-size: 50px;
+}
+.container .hire button{
+    font-weight: 550;
+}
+/* hire section end here */
+
+
+
+
+
+/* blog section start here */
+.blog{
+    height: 90vh;
+}
+.blog h1{
+    font-size: 45px;
+    top: -140px;
+}
+
+.blog .flex-div{
+    flex-direction: row;
+}
+
+
+.blog .flex-div .blog-div1 .img-div{
+    /* display: inline-flex; */
+    width: 300px;
+    height: 250px;
+}
+
+.blog .flex-div .blog-div1 .details{
+    width: 300px;
+    height: 250px;
+}
+.blog .details h2{
+     margin-top: 12px;
+}
+
+
+/* blog section start here */
